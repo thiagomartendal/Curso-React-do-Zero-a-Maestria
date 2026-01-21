@@ -1,0 +1,16 @@
+import { validationResult } from 'express-validator'
+
+export const validate = (req, res, next) => {
+    const errors = validationResult(req)
+
+    if (errors.isEmpty())
+        return next() // Caso não tenha ocorrido erros, pode prosseguir
+
+    const extractedErrors = []
+
+    errors.array().map((err) => extractedErrors.push(err.msg))
+
+    return res.status(422).json({
+        errors: extractedErrors
+    })
+}
