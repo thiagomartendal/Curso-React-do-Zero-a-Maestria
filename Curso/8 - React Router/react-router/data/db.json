@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": "2",
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": "3",
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "id": "96be",
+      "name": "Camiseta Regata",
+      "price": "45.3"
+    },
+    {
+      "id": "7bf0",
+      "name": "Óculos Escuros",
+      "price": "12.99"
+    },
+    {
+      "id": "b2e5",
+      "name": "Calça Jeans",
+      "price": "60"
+    },
+    {
+      "id": "790d",
+      "name": "Blusa",
+      "price": "25.9"
+    },
+    {
+      "id": "fd3c",
+      "name": "Terno",
+      "price": "195.55"
+    },
+    {
+      "id": "bb9d",
+      "name": "Vestido",
+      "price": "136.55"
+    }
+  ]
+}
