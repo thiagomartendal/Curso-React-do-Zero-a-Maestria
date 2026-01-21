@@ -1,0 +1,12 @@
+:root {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.hide {
+  display: none !important;
+}
